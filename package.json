@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node build/server.js",
     "start:dev": "nodemon src/server.ts",
-    "deploy": "tsc -p . && git push origin master"
+    "deploy": "git push origin master",
+    "build": "tsc -p ."
   },
   "keywords": [],
   "author": "",
